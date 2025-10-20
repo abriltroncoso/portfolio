@@ -370,6 +370,17 @@ export default function Portfolio() {
               </span>
             </div>
           </div>
+          <div className="mt-12 bg-white rounded-xl border-2 border-gray-200 p-8">
+            <h3 className="text-xl font-bold mb-4 text-black">Idiomas</h3>
+            <div className="flex flex-wrap gap-3">
+              <span className="px-4 py-2 bg-black text-white rounded-lg font-medium">
+                Español - Nativo
+              </span>
+              <span className="px-4 py-2 bg-black text-white rounded-lg font-medium">
+                Inglés - Fluido (B2)
+              </span>
+            </div>
+          </div>
         </div>
       </section>
 
