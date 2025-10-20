@@ -169,6 +169,7 @@ export default function Portfolio() {
               <h1 className="text-5xl md:text-6xl font-bold mb-6 text-black">
                 Abril Troncoso
               </h1>
+              <p className="text-lg text-gray-600 mb-2">19 años</p>
               <p className="text-xl text-gray-600 mb-4 leading-relaxed">
                 Estudiante de{" "}
                 <span className="font-semibold text-black">
@@ -224,8 +225,22 @@ export default function Portfolio() {
             <div className="hidden md:block">
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-gray-200 to-gray-300 rounded-2xl transform rotate-6"></div>
-                <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl p-8 border border-gray-300">
-                  <Code2 className="w-full h-64 text-gray-400" />
+                <div className="relative bg-white rounded-2xl overflow-hidden border-2 border-gray-300 shadow-lg">
+                  <img
+                    src="/portfolio/foto-abril.jpg"
+                    alt="Abril Troncoso"
+                    className="w-full h-96 object-cover"
+                    onError={(e) => {
+                      e.target.style.display = "none";
+                      e.target.nextSibling.style.display = "flex";
+                    }}
+                  />
+                  <div
+                    className="w-full h-96 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center"
+                    style={{ display: "none" }}
+                  >
+                    <Code2 className="w-48 h-48 text-gray-400" />
+                  </div>
                 </div>
               </div>
             </div>
