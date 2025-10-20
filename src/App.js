@@ -69,7 +69,7 @@ export default function Portfolio() {
     { category: "Lenguajes", items: ["Kotlin", "JavaScript", "Java", "PHP"] },
     {
       category: "Frameworks & Libraries",
-      items: ["Spring Boot", "Node.js", "Angular"],
+      items: ["Spring Boot", "Node.js", "Angular", "Hilt"],
     },
     { category: "Bases de Datos", items: ["MongoDB", "PostgreSQL", "MySQL"] },
     { category: "Testing", items: ["JUnit", "TestNG"] },
@@ -198,19 +198,23 @@ export default function Portfolio() {
               </div>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://github.com/abriltroncoso"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 border border-gray-300 hover:border-black rounded-lg transition"
                 >
                   <Github size={24} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/abril-troncoso-1239a3308/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 border border-gray-300 hover:border-black rounded-lg transition"
                 >
                   <Linkedin size={24} />
                 </a>
                 <a
-                  href="#"
+                  href="mailto:abriltroncoso108@gmail.com"
                   className="p-3 border border-gray-300 hover:border-black rounded-lg transition"
                 >
                   <Mail size={24} />
@@ -282,10 +286,12 @@ export default function Portfolio() {
                     ))}
                   </div>
                   <a
-                    href="#"
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-black font-medium hover:gap-3 transition-all"
                   >
-                    Ver detalles <ExternalLink size={16} />
+                    Ver proyecto <ExternalLink size={16} />
                   </a>
                 </div>
               </div>
@@ -392,7 +398,7 @@ export default function Portfolio() {
             desafiantes
           </p>
           <a
-            href="mailto:abril.troncoso@ejemplo.com"
+            href="mailto:abriltroncoso108@gmail.com"
             className="inline-block bg-black text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-800 transition transform hover:scale-105"
           >
             Enviar mensaje
