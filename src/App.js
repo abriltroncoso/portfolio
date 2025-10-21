@@ -173,7 +173,8 @@ export default function Portfolio() {
               <p className="text-xl text-gray-600 mb-4 leading-relaxed">
                 Estudiante de{" "}
                 <span className="font-semibold text-black">
-                  Tecnicatura Universitaria en Desarrollo de Aplicaciones Web
+                  Tecnicatura Universitaria en Desarrollo de Aplicaciones
+                  Informaticas - UNICEN
                 </span>{" "}
                 - Graduación Diciembre 2025
               </p>
@@ -351,25 +352,7 @@ export default function Portfolio() {
             ))}
           </div>
 
-          <div className="mt-12 bg-white rounded-xl border-2 border-gray-200 p-8">
-            <h3 className="text-xl font-bold mb-4 text-black">
-              Metodologías y Prácticas
-            </h3>
-            <div className="flex flex-wrap gap-3">
-              <span className="px-4 py-2 bg-black text-white rounded-lg font-medium">
-                Programación Orientada a Objetos
-              </span>
-              <span className="px-4 py-2 bg-black text-white rounded-lg font-medium">
-                Metodologías Ágiles
-              </span>
-              <span className="px-4 py-2 bg-black text-white rounded-lg font-medium">
-                Sistema de Versionado (Git)
-              </span>
-              <span className="px-4 py-2 bg-black text-white rounded-lg font-medium">
-                Clean Code
-              </span>
-            </div>
-          </div>
+          <div className="mt-12 bg-white rounded-xl border-2 border-gray-200 p-8"></div>
           <div className="mt-12 bg-white rounded-xl border-2 border-gray-200 p-8">
             <h3 className="text-xl font-bold mb-4 text-black">Idiomas</h3>
             <div className="flex flex-wrap gap-3">
@@ -397,7 +380,8 @@ export default function Portfolio() {
               <span className="font-semibold text-black">Diciembre 2025</span>{" "}
               de la{" "}
               <span className="font-semibold text-black">
-                Tecnicatura Universitaria en Desarrollo de Aplicaciones Web
+                Tecnicatura Universitaria en Desarrollo de Aplicaciones
+                Informaticas - UNICEN
               </span>
               , con un enfoque práctico en el desarrollo de soluciones completas
               tanto para web como para dispositivos móviles.
@@ -405,9 +389,10 @@ export default function Portfolio() {
             <p className="text-gray-700 text-lg leading-relaxed">
               Mi experiencia abarca desde el desarrollo de aplicaciones móviles
               nativas con Kotlin, hasta sistemas web full-stack con frameworks
-              modernos. Me apasiona escribir código limpio, escalable y mantener
-              las mejores prácticas de la industria. Estoy lista para comenzar
-              mi carrera profesional y aportar valor desde el primer día.
+              modernos. Mi formacion fue centrada en escribir código limpio,
+              escalable y mantener las mejores prácticas de la industria y el
+              trabajo en equipo. Estoy lista para comenzar mi carrera
+              profesional y aportar valor desde el primer día.
             </p>
           </div>
         </div>
