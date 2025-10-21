@@ -352,7 +352,6 @@ export default function Portfolio() {
             ))}
           </div>
 
-          <div className="mt-12 bg-white rounded-xl border-2 border-gray-200 p-8"></div>
           <div className="mt-12 bg-white rounded-xl border-2 border-gray-200 p-8">
             <h3 className="text-xl font-bold mb-4 text-black">Idiomas</h3>
             <div className="flex flex-wrap gap-3">
@@ -383,8 +382,6 @@ export default function Portfolio() {
                 Tecnicatura Universitaria en Desarrollo de Aplicaciones
                 Informaticas - UNICEN
               </span>
-              , con un enfoque práctico en el desarrollo de soluciones completas
-              tanto para web como para dispositivos móviles.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
               Mi experiencia abarca desde el desarrollo de aplicaciones móviles
