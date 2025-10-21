@@ -37,7 +37,7 @@ export default function Portfolio() {
       id: 2,
       title: "Sistema Web Angular + MongoDB",
       description:
-        "Aplicación web full-stack con frontend en Node.js, MongoDB como base de datos y autenticación basada en tokens JWT, implementando un sistema completo con gestión de datos en tiempo real.",
+        "Aplicación web full-stack con frontend en Node.js, MongoDB como base de datos y autenticación basada en tokens JWT, implementando un sistema completo con gestión de datos en tiempo real. Deployada con Render y Vercel.",
       icon: <Database className="w-12 h-12" />,
       tech: ["Node.js", "Angular", "MongoDB", "JWT", "Express"],
       category: "Full Stack Web",
