@@ -20,16 +20,16 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: "Aplicación Android con Kotlin",
+      title: "Aplicación React con node express y JWT",
       description:
-        "Aplicación móvil nativa desarrollada para Android utilizando Kotlin, implementando las mejores prácticas de desarrollo móvil y arquitectura MVVM.",
+        "Aplicacion para un refugio de perros, frontend desarrollado con ract. Backend con node + express + JWT + mongodb. Archivos subidos a cloudinary",
       icon: <Smartphone className="w-12 h-12" />,
-      tech: ["Kotlin", "Android SDK", "MVVM", "Material Design"],
-      category: "Mobile Development",
+      tech: ["react", "node.js", "Express", "mongoDb", "cloudinary", "multer"],
+      category: "Full-stack web",
       highlights: [
-        "Interfaz nativa",
-        "Arquitectura limpia",
-        "Performance optimizado",
+        "Autenticación con tokens",
+        "API RESTful",
+        "Base de datos NoSQL",
       ],
       link: "https://github.com/abriltroncoso/AndroidProject",
     },
@@ -62,6 +62,21 @@ export default function Portfolio() {
         "JavaScript vanilla",
       ],
       link: "https://lucagoro.github.io/Tp-Interfaces/TP2/auth/login",
+    },
+    {
+      id: 4,
+      title: "Aplicación Android con Kotlin",
+      description:
+        "Aplicación móvil nativa desarrollada para Android utilizando Kotlin, implementando las mejores prácticas de desarrollo móvil y arquitectura MVVM.",
+      icon: <Smartphone className="w-12 h-12" />,
+      tech: ["Kotlin", "Android SDK", "MVVM", "Material Design"],
+      category: "Mobile Development",
+      highlights: [
+        "Interfaz nativa",
+        "Arquitectura limpia",
+        "Performance optimizado",
+      ],
+      link: "https://github.com/abriltroncoso/AndroidProject",
     },
   ];
 
