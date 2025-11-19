@@ -194,10 +194,8 @@ export default function Portfolio() {
                 - Graduación Diciembre 2025
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                Apasionada por crear soluciones tecnológicas innovadoras.
                 Especializada en desarrollo full-stack y móvil, con enfoque en
-                código limpio y buenas prácticas. Lista para comenzar mi carrera
-                profesional.
+                código limpio y buenas prácticas.
               </p>
               <div className="flex gap-4 mb-8">
                 <a
@@ -399,12 +397,9 @@ export default function Portfolio() {
               </span>
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              Mi experiencia abarca desde el desarrollo de aplicaciones móviles
-              nativas con Kotlin, hasta sistemas web full-stack con frameworks
-              modernos. Mi formacion fue centrada en escribir código limpio,
-              escalable y mantener las mejores prácticas de la industria y el
-              trabajo en equipo. Estoy lista para comenzar mi carrera
-              profesional y aportar valor desde el primer día.
+              Mi experienciacomo Freelancer desde el 2023 abarca desde el
+              desarrollo de aplicaciones móviles nativas con Kotlin, hasta
+              sistemas web full-stack con frameworks modernos.
             </p>
           </div>
         </div>
