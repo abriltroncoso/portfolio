@@ -31,13 +31,13 @@ export default function Portfolio() {
         "API RESTful",
         "Base de datos NoSQL",
       ],
-      link: "https://github.com/abriltroncoso/AndroidProject",
+      link: "https://sapaab.vercel.app/",
     },
     {
       id: 2,
       title: "Sistema Web Angular + MongoDB",
       description:
-        "Aplicación web full-stack con frontend en Node.js, MongoDB como base de datos y autenticación basada en tokens JWT, implementando un sistema completo con gestión de datos en tiempo real. Deployada con Render y Vercel.",
+        "Aplicación web full-stack con frontend en angular,backend en node.js + Express + MongoDB como base de datos y autenticación basada en tokens JWT, implementando un sistema completo con gestión de datos en tiempo real. Deployada con Render y Vercel.",
       icon: <Database className="w-12 h-12" />,
       tech: ["Node.js", "Angular", "MongoDB", "JWT", "Express"],
       category: "Full Stack Web",
@@ -397,7 +397,7 @@ export default function Portfolio() {
               </span>
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              Mi experienciacomo Freelancer desde el 2023 abarca desde el
+              Mi experiencia como Freelancer desde el 2023 abarca desde el
               desarrollo de aplicaciones móviles nativas con Kotlin, hasta
               sistemas web full-stack con frameworks modernos.
             </p>
